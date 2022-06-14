@@ -58,6 +58,9 @@ ul {
     height: 150px;
 }
 
+/* sezione psplus */
+#plus{background-color: #BEBCBB;}
+
 /* stile per tutte le immagini */
 img {
     height: 100%;
