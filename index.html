@@ -17,20 +17,22 @@
 
 <body>
     <!-- header -->
-    <header>
+
+    <header class="fixed-top">
         <!-- header alto -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col bg-dark d-flex justify-content-end"><img src="/img/sony_logo.svg" alt="sony-logo"
                         id="sony-logo"></div>
             </div>
 
             <!-- header basso -->
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <nav class="navbar navbar-expand-lg bg-light">
+                    <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#">Navbar</a>
+                            <a class="navbar-brand" href="#"><img id="ps-logo" src="/img/play_logo.svg"
+                                    alt="ps-logo"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +70,7 @@
                     <nav class="navbar">
                         <div class="container-fluid justify-content-end">
                             <ul class="navbar-nav flex-row">
-                                <li class="nav-item">
+                                <li class="nav-item mr-2">
                                     <a class="nav-link dropdown-toggle" href="#">My Playstation</a>
                                 </li>
                                 <li class="nav-item">
@@ -88,15 +90,22 @@
 
         </div>
     </header>
+
     <!-- sezione jumbotrone -->
-    <section class="jumbotron">
+    <section class="jumbotron-1 margin-jumbo ">
         <div class="container">
             <div class="row">
-                <div class="col-12">rompi il cerchio</div>
-                <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore maiores,
+                <div class="col-12"> <img src="/img/returnal-hero-banner-logo.png" alt="returnal-logo" id="returnal-logo"></div>
+               
+                <div class="col-12">
+
+                    <h1 class="text-white">Rompi il cerchio</h1>
+                </div>
+                <div class="col-12 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore
+                    maiores,
                     architecto impedit perspiciatis molestias ipsam nobis, nisi, modi ipsum est sit magnam a ab quo
                     corrupti iste? Harum, laudantium.</div>
-                <div class="col-12">acquista</div>
+                <div class="col-12"><button type="button" class="btn btn-danger">Acquista ora</button></div>
             </div>
         </div>
     </section>
