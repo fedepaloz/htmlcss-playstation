@@ -2,33 +2,64 @@
     border: 1px dotted black;
 }
 
-header{background-color: white;}
-
-.margin-jumbo{margin-top: 122px;}
+/* sezione header */
+header {
+    background-color: white;
+}
 
 #sony-logo {
     width: 80px;
     height: 40px;
 }
 
-#returnal-logo{object-fit: contain; width: 300px;}
-
 #ps-logo {
     height: 40px;
 }
+
+/* margine jumbotron per distanziarlo dall header */
+.margin-jumbo {
+    margin-top: 122px;
+}
+
+
+
 
 ul {
     list-style-type: none;
 }
 
+/* i due jumbotroni  */
+
 .jumbotron-1 {
     background-image: url(/img/returnal-listing-thumb-01-ps5.jpg);
-    
-  background-attachment: fixed;
-  background-position: right;
-  background-size:cover;
-  height: 500px;
+
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    min-height: 500px;
 }
 
-img{height:100%;
-width: 100%;}
+.jumbotron-2 {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#returnal-logo {
+    object-fit: contain;
+    width: 300px;
+}
+
+#takes-two {
+    object-fit: contain;
+    height: 150px;
+}
+
+/* stile per tutte le immagini */
+img {
+    height: 100%;
+    width: 100%;
+}
