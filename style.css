@@ -70,11 +70,11 @@ ul {
     background-color: #161C3B;
 }
 
-/* stile per tutte le immagini */
-img {
-    height: 100%;
-    width: 100%;
-}
+/* stile per tutte le immagini anche se potevo usare image fluid su tutte le immagine per ottenere lo stesso risultato */
+img{height: auto;
+width: 100%;}
+
 
 
 #logo-ps{width: 80px;}
+
