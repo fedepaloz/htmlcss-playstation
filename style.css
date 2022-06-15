@@ -59,7 +59,16 @@ ul {
 }
 
 /* sezione psplus */
-#plus{background-color: #BEBCBB;}
+#plus {
+    background-color: #BEBCBB;
+}
+
+
+/* sezione ps now */
+
+#psnow {
+    background-color: #161C3B;
+}
 
 /* stile per tutte le immagini */
 img {
