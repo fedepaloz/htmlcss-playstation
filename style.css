@@ -18,7 +18,7 @@ header {
 
 /* margine jumbotron per distanziarlo dall header */
 .margin-jumbo {
-    margin-top: 122px;
+    margin-top: 100px;
 }
 
 
@@ -71,13 +71,19 @@ ul {
 }
 
 /* stile per tutte le immagini anche se potevo usare image fluid su tutte le immagine per ottenere lo stesso risultato */
-img{height: auto;
-width: 100%;}
+img {
+    height: auto;
+    width: 100%;
+}
 
-footer{background-color: #00439C;}
 
-#logo-ps{
-width: 100px;}
+/* stile loghi footer */
 
-#logo-sie{
-width: 100px;}
+#logo-ps,
+#logo-sie {
+    width: 100px;
+}
+
+footer {
+    background-color: #00439C;
+}
